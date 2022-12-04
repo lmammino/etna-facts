@@ -4,11 +4,12 @@ Random facts about Mount Etna 🌋
 
 It is available as a library and as an API.
 
-## API
+## Usage: Library
 
 ...
 
-## Library
+
+## Usage API
 
 ...
 

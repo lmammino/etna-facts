@@ -10,6 +10,9 @@
       "require": "./src/cjs/facts.cjs"
     }
   },
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "eslint .",
     "build": "node src/build.js"
@@ -18,7 +21,17 @@
     "type": "git",
     "url": "git+https://github.com/lmammino/etna-facts.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Etna",
+    "Mount Etna",
+    "Volcano",
+    "Facts",
+    "Random Facts",
+    "Interesting Facts",
+    "Sicily",
+    "Italy",
+    "Trivia"
+  ],
   "author": "Luciano Mammino",
   "license": "MIT",
   "bugs": {

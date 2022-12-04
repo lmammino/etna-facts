@@ -1,12 +1,11 @@
-import { readFile, writeFile } from 'node:fs/promises'
+import { writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import getFacts from './facts.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const factsFilePath = join(__dirname, 'facts.txt')
 const destPath = join(__dirname, '..', 'api')
-const sourceData = await readFile(factsFilePath, 'utf8')
-const facts = sourceData.split('\n\n')
+const facts = await getFacts()
 
 const stats = {
   total: facts.length,
@@ -22,7 +21,7 @@ console.log(`Written ${destPath}/stats.json`)
 function mapFact (id, fact) {
   return {
     id: Number(id),
-    fact: fact.trim(),
+    fact,
     url: `https://raw.githubusercontent.com/lmammino/etna-facts/main/api/${id}.json`
   }
 }

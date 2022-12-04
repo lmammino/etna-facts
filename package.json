@@ -2,7 +2,16 @@
   "name": "etna-facts",
   "version": "1.0.0",
   "description": "Random facts about Mount Etna 🌋",
+  "module": "src/facts.js",
+  "main": "src/cjs/facts.cjs",
+  "exports": {
+    ".": {
+      "import": "./src/facts.js",
+      "require": "./src/cjs/facts.cjs"
+    }
+  },
   "scripts": {
+    "test": "eslint .",
     "build": "node src/build.js"
   },
   "repository": {

@@ -1,0 +1,27 @@
+{
+  "name": "etna-facts",
+  "version": "1.0.0",
+  "description": "Random facts about Mount Etna 🌋",
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/etna-facts.git"
+  },
+  "keywords": [],
+  "author": "Luciano Mammino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmammino/etna-facts/issues"
+  },
+  "homepage": "https://github.com/lmammino/etna-facts#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "total": 58,
+  "all": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/all.json",
+  "first": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/0.json",
+  "last": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/57.json",
+  "urlPrefix": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/"
+}

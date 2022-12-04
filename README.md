@@ -108,7 +108,13 @@ curl 'https://raw.githubusercontent.com/lmammino/etna-facts/main/api/17.json' | 
 
 ## Suggest a fact
 
-...
+If you want to suggest a new fact about Mount Etna, here's how you can do that.
+
+- [Fork this repository](https://github.com/lmammino/etna-facts/fork)
+- Edit the file [`src/facts.txt`](/src/facts.txt) and append the new fact at the bottom (make sure to leave an empty line before the previous fact).
+- Run `npm run build`
+- Commit your changes
+- Open a PR against the original repository
 
 
 ## Contributing

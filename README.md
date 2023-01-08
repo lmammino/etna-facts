@@ -31,7 +31,7 @@ console.log(facts) // an array of strings where every string is a different fact
 
 If you just want to get the facts as an API you can do that too 🥹
 
-The base URL of the API is `https://raw.githubusercontent.com/lmammino/etna-facts/main/api`.
+The base URL of the API is `https://lmammino.github.io/etna-facts/`.
 
 There are 3 endpoints available.
 
@@ -42,16 +42,16 @@ Returns statistics about the facts available and how to query for them.
 #### Example
 
 ```bash
-curl 'https://raw.githubusercontent.com/lmammino/etna-facts/main/api/stats.json' | jq .
+curl 'https://lmammino.github.io/etna-facts/stats.json' | jq .
 ```
 
 ```json
 {
   "total": 58,
-  "all": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/all.json",
-  "first": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/0.json",
-  "last": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/57.json",
-  "urlPrefix": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/"
+  "all": "https://lmammino.github.io/etna-facts/all.json",
+  "first": "https://lmammino.github.io/etna-facts/0.json",
+  "last": "https://lmammino.github.io/etna-facts/57.json",
+  "urlPrefix": "https://lmammino.github.io/etna-facts/"
 }
 ```
 
@@ -62,7 +62,7 @@ Gets all the facts in one call.
 #### Example
 
 ```bash
-curl 'https://raw.githubusercontent.com/lmammino/etna-facts/main/api/all.json' | jq .
+curl 'https://lmammino.github.io/etna-facts/all.json' | jq .
 ```
 
 ```json
@@ -76,12 +76,12 @@ curl 'https://raw.githubusercontent.com/lmammino/etna-facts/main/api/all.json' |
     {
       "id": 0,
       "fact": "Mount Etna is located on the east coast of the Italian island of Sicily, in the Mediterranean.",
-      "url": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/0.json"
+      "url": "https://lmammino.github.io/etna-facts/0.json"
     },
     {
       "id": 1,
       "fact": "Mount Etna is almost 3500 meters (11000 feet) high, making it the highest mountain in Italy south of the Alps.",
-      "url": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/1.json"
+      "url": "https://lmammino.github.io/etna-facts/1.json"
     }
   ]
 }
@@ -94,14 +94,14 @@ Gets a given fact by ID.
 #### Example
 
 ```bash
-curl 'https://raw.githubusercontent.com/lmammino/etna-facts/main/api/17.json' | jq .
+curl 'https://lmammino.github.io/etna-facts/17.json' | jq .
 ```
 
 ```json
 {
   "id": 17,
   "fact": "Early Arabs were familiar with Mount Etna. They called it \"Jabal al-Nar\", which translates as \"Mountain of Fire\".",
-  "url": "https://raw.githubusercontent.com/lmammino/etna-facts/main/api/17.json"
+  "url": "https://lmammino.github.io/etna-facts/17.json"
 }
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "etna-facts",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Random facts about Mount Etna 🌋",
   "module": "src/facts.js",
   "main": "src/cjs/facts.cjs",
@@ -44,6 +44,7 @@
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.5.1",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "mkdirp": "^1.0.4"
   }
 }

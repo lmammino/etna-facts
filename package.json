@@ -1,6 +1,6 @@
 {
   "name": "etna-facts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Random facts about Mount Etna 🌋",
   "module": "src/facts.js",
   "main": "src/cjs/facts.cjs",

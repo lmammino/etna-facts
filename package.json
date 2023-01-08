@@ -4,6 +4,7 @@
   "description": "Random facts about Mount Etna 🌋",
   "module": "src/facts.js",
   "main": "src/cjs/facts.cjs",
+  "types": "src/facts.d.ts",
   "exports": {
     ".": {
       "import": "./src/facts.js",

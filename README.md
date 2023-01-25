@@ -27,7 +27,7 @@ console.log(facts) // an array of strings where every string is a different fact
 ```
 
 
-## Usage API
+## Usage: API
 
 If you just want to get the facts as an API you can do that too 🥹
 
